@@ -1,0 +1,197 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+
+  /* TYPO */
+  h1 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  nav a {
+    font-size: 1.1rem;
+  }
+
+  a svg {
+    width: 25px;
+  }
+
+  .container {
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  /* NAV */
+  .menu-nav {
+    margin: 0 10px;
+  }
+
+  .navhead {
+    padding: 5px 0 0 0;
+  }
+
+  #logo-nav {
+    margin: 0;
+  }
+
+  .icon-nav {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .icon-nav a svg {
+    width: 25px;
+  }
+
+  .nav-links {
+    align-items: center;
+    display: flex;
+  }
+
+  .menu-nav:first-child {
+    display: none;
+  }
+
+  #logo-site {
+    width: 95px;
+  }
+
+  #dframe {
+    align-items: center;
+    display: flex;
+  }
+
+  /* HEADER */
+  #header-text {
+    top: 45%;
+    left: 2%;
+  }
+
+  header {
+    background-position: 73%;
+    margin-top: 20px;
+  }
+
+  /* PRODUITS */
+  section.d-flex {
+    flex-direction: column;
+  }
+
+  .col {
+    border: 1px solid rgba(125, 119, 114, 0.5);
+    border-radius: 0% 0% 5% 5%;
+    border-top: none;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  /* CATEGORIES */
+  #categorie {
+    flex-direction: column;
+  }
+
+  #cat-equip, #cat-services {
+    background-position: center;
+    height: 300px;
+    width: 100%;
+  }
+
+  #cat-equip {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .overlay {
+    display: flex;
+    color: white;
+    opacity: 0.8;
+  }
+
+  /* BANDEAU PROMOTIONNEL */
+  .promo-band {
+    background-position: center;
+  }
+
+  #newsletter {
+    color: #fbfcff;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  /* SERVICES */
+  #services div.container {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .services-logo {
+    margin: 20px 0;
+  }
+
+  .links a {
+    margin-right: 0;
+  }
+
+  #anchor {
+    display: none;
+  }
+
+  /* FOOTER */
+  footer div.container {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  footer div.container p {
+    display: none;
+  }
+
+  #social-media ul li {
+    margin: 0 10px;
+  }
+
+  .links:first-child {
+    margin-left: 0;
+  }
+
+  #footer-links ul {
+    display: flex;
+    text-align: center;
+  }
+
+  #social-media {
+    align-self: center;
+  }
+
+  #logo-footer {
+    align-self: center;
+    margin-top: 15px;
+    order: 3;
+    width: 120px;
+  }
+}
+
+/* DESACTIVER LES HOVERS AUTRES VERSIONS QUE BUREAU */
+@media (hover: none) {
+  a:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+
+  .col:hover {
+    box-shadow: none;
+    transform: none;
+  }
+
+  a:hover svg {
+    fill: rgba(125, 119, 114, 0.8);
+  }
+}
