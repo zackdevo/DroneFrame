@@ -1,1 +1,6 @@
-# Page d'accueil d'un site e-commerce fictif en HTML/CSS
+# DroneFrame
+
+DroneFrame est mon premier projet en HTML/CSS, il s'agit d'un site e-commerce fictif.
+
+https://zackdevo.github.io/projetDroneFrame/
+
